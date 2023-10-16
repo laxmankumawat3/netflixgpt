@@ -1,0 +1,50 @@
+/* vidiotitle componet css here */
+
+.vidowtitlecontaiener {
+  /* background-image: linear-gradient(to right ,rgba(0, 0, 0, 0), rgba(255, 255, 255, 0)); */
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 40vh;
+  margin-left: 4rem;
+  /* width: 100vw;
+           aspect-ratio: screen; */
+}
+
+.videotitleheading {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.btnsection {
+  display: flex;
+  margin-top: 2rem;
+}
+.playbtn {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+  /* justify-content: space-around; */
+  border-radius: 0.3rem;
+}
+.moreinfobtn {
+  background-color: rgba(255, 255, 255, 0.203);
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+  /* justify-content: space-around; */
+  border-radius: 0.3rem;
+  margin: 0 0 0 1rem;
+}
+
+/* videobackgroundcomponent css */
+.videobackgrondcontainer {
+  position: relative;
+  /* width: 100vw; */
+}
+
+.iframe {
+  width: 100%;
+}

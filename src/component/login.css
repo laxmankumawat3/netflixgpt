@@ -1,43 +1,62 @@
-.loginlogo{
-    width: 9rem;
-    background-color: #0000009c;
+.loginlogo {
+  width: 9rem;
+  background-color: #0000009c;
 }
-.formfild{
-    background-color: #000000a8;
-    color: white;
-    width: 31%;
-    margin: auto;
-    border-radius: .5rem;
+.formfild {
+  background-color: #000000a8;
+  color: white;
+  width: 31%;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
 }
-@media screen and (max-width : 800px) {
-    .formfild{
-        width: 90%;
-    }
+@media screen and (max-width: 800px) {
+  .formfild {
+    width: 90%;
+  }
 }
-.loginheaing{
-    font-size: 3rem;
-    padding: 1rem;
-    margin: 1rem;
+.loginheaing {
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 1rem;
 }
-.labelbox{
-    text-align: start;
-    margin-left: 2rem;
+.labelbox {
+  text-align: start;
+  margin-left: 2rem;
 }
-.inputbox{
-    display: flex;
-    flex-direction: column;
+.inputbox {
+  display: flex;
+  flex-direction: column;
 }
-.inputfild{
-    margin: 1rem 2rem;
-    padding: .6rem;
-    border-radius: 0.3rem;
-    background-color: #000000a1;
-    border: 0.3px solid gray;
+.inputfild {
+  margin: 1rem 2rem;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  background-color: #000000a1;
+  border: 0.3px solid gray;
 }
-.submitbtn{
-    background-color: red;
-    margin: 2rem;
-    padding: 0.6rem;
-    border-radius: 0.3rem;
-    cursor: pointer;
+.submitbtn {
+  background-color: red;
+  margin: 2rem;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.message {
+  color: red;
+  padding: 1rem;
+  margin: 1rem;
+}
+.loginbottom {
+  padding: 1rem;
+}
+
+/* header .js */
+.headercontainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(18, 9, 9, 0.12);
+  color: white;
+  align-items: center;
+  background-image: linear-gradient(45deg, black, transparent);
 }
