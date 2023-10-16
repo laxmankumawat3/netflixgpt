@@ -1,0 +1,12 @@
+/* movielist css */
+.movielistbox{
+          display: flex;
+}
+
+/* moviecard css */
+.moveicard img{
+    height: auto;
+    width: 10vw;
+    margin: 1rem;
+    max-width: none;
+}
